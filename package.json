@@ -1,0 +1,11 @@
+{
+  "name": "demo-app-opsworks",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  },
+  "license": "LGPL",
+  "description": "Demo nodejs app for AWS OpsWorks"
+}
