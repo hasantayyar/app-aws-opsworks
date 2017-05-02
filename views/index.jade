@@ -1,4 +1,7 @@
 #container
+  p
+    strong 
+      | app version #{version} 
   p(style="font-family:monospace")
     |Hostname : #{hostname} 
     br
@@ -6,4 +9,6 @@
     br
     | User agent :  #{agent}
     br
-    | <strong> Node.js version #{nodeversion}</strong>
+    strong 
+      | Node.js version #{nodeversion}
+
